@@ -31,6 +31,8 @@ int main(int nArgs, char** czArgs) {
       getline(input, line);
       dictionary.push_back(line);
    }
+   input.close();
+   
    // Removes the blank line at the end of the file
    dictionary.pop_back();
    
